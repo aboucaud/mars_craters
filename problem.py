@@ -69,10 +69,10 @@ def _read_data(path, typ):
     """
     test = os.getenv('RAMP_TEST_MODE', 0)
 
-    if test:
-        suffix = '_mini'
-    else:
-        suffix = ''
+    # if test:
+        # suffix = '_mini'
+    # else:
+    suffix = ''
 
     try:
         data_path = os.path.join(path, 'data',
