@@ -13,4 +13,5 @@ dependencies:
   - keras>=2.0.*
   - mahotas
   - pip:
-    - git+https://github.com/paris-saclay-cds/ramp-workflow
+    - https://api.github.com/repos/paris-saclay-cds/ramp-workflow/zipball/master
+    - git+https://github.com/paris-saclay-cds/ssd_keras
